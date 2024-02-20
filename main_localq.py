@@ -144,7 +144,7 @@ class SenxorConnect:
     
 
 if __name__ == '__main__':
-    onnx_model_path = "Models/onnx/toilet3.onnx"
+    onnx_model_path = "Models/onnx/wheelchair.onnx"
     yolomodel = YOLOModel(onnx_model_path)
     rtmpUrl = "rtmp://127.0.0.1:1935/test/aaa"
     serverUrl = "http://127.0.0.1:5000/"
